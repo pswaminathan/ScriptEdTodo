@@ -23,10 +23,10 @@ Hints: Even if you don't think you're not going to have enough time to make it t
     var array = ["some", "awesome", "stuff"]; // Making an Array
     
     // What does this code do?
-    var array = [“hello”, “world”, “and”, “anyone”, “else”];
+    var array = ["hello", "world", "and", "anyone", "else"];
     var html = [];
     for (var i = 0; i < array.length; i++) {
-      var newItem = “<p>” + array[i] + “</p>”;
+      var newItem = "<p>" + array[i] + "</p>";
       html.push(newItem);
     }
     console.log(html); // What will I print?
